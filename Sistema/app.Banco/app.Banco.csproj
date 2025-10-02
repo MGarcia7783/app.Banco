@@ -83,6 +83,12 @@
     <Compile Include="Formularios\frmCuentas.Designer.cs">
       <DependentUpon>frmCuentas.cs</DependentUpon>
     </Compile>
+    <Compile Include="Formularios\frmMovimientoCuentas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\frmMovimientoCuentas.Designer.cs">
+      <DependentUpon>frmMovimientoCuentas.cs</DependentUpon>
+    </Compile>
     <Compile Include="Formularios\frmusuarios.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -112,6 +118,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Formularios\frmCuentas.resx">
       <DependentUpon>frmCuentas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\frmMovimientoCuentas.resx">
+      <DependentUpon>frmMovimientoCuentas.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Formularios\frmusuarios.resx">
       <DependentUpon>frmusuarios.cs</DependentUpon>
